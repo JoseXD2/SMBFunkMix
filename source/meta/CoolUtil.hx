@@ -64,7 +64,7 @@ class CoolUtil
 	{
 		//
 		var libraryArray:Array<String> = [];
-		#if !html5
+		#if !android
 		var unfilteredLibrary = FileSystem.readDirectory('$subDir/$library');
 		trace(unfilteredLibrary);
 
